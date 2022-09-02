@@ -1,0 +1,10 @@
+export { default as Header } from "./Header";
+export { default as Nav } from "./Nav";
+export { default as Sponsored } from "./Sponsored";
+export { default as WhatIs } from "./WhatIs";
+export { default as Case } from "./Case";
+export { default as OpenAi } from "./OpenAi";
+export { default as Register } from "./Register";
+export { default as EarlyAccess } from "./EarlyAccess";
+export { default as Footer } from "./Footer";
+export { default as Blog } from "./Blog";

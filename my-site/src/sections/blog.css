@@ -1,0 +1,42 @@
+.section-blog {
+  font-family: var(font-family);
+  display: flex;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card2 {
+  display: flex;
+}
+
+.card2 :first-child {
+  margin-right: 3.2rem;
+}
+
+.card2-top {
+  margin-bottom: 3rem;
+}
+
+.margin-right {
+  margin-right: 3.2rem;
+}
+
+@media (max-width: 81.25em) {
+  .section-blog {
+    flex-direction: column;
+  }
+
+  .cards-container {
+    align-items: center;
+  }
+}
+
+@media (max-width: 50em) {
+  .card2 :first-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,64 @@
+.section-register {
+  background: var(--gradient-bar);
+  font-family: var(--font-family);
+  padding: 3.2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-container1 {
+  color: #fff;
+}
+
+.register-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.register-container1 span {
+  font-size: 1.2rem;
+  line-height: 3rem;
+  font-weight: 500;
+}
+
+.register-container1 h4 {
+  font-size: 2.4rem;
+  line-height: 4.5rem;
+  font-weight: 800;
+  width: 161%;
+}
+
+.register-container2 button {
+  color: #fff;
+  background-color: black;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 15rem;
+}
+
+@media (max-width: 50.5em) {
+  .section-register {
+    flex-direction: column;
+  }
+
+  .register-container1 h4 {
+    width: auto;
+  }
+}
+
+@media (max-width: 31.5em) {
+  .register-container2 {
+    justify-content: left;
+    margin-top: 1rem;
+  }
+}

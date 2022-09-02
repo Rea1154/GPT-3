@@ -1,0 +1,64 @@
+.section-openai {
+  font-family: var(--font-family);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.openai-container1 {
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.openai-container2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.openai-container1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.openai-container2 span {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #71e5ff;
+}
+
+.span2 {
+  color: #ff8a71 !important;
+}
+
+.openai-container2 h2 {
+  font-weight: 800;
+  font-size: 3.4rem;
+  line-height: 4.5rem;
+  margin: 1rem 0;
+}
+
+.openai-container2 p {
+  color: var(--color-text);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 68.75em) {
+  .section-openai {
+    flex-direction: column;
+  }
+
+  .openai-container1 {
+    margin-bottom: 5rem;
+    width: 90%;
+  }
+
+  .openai-container2 {
+    width: 90%;
+  }
+}

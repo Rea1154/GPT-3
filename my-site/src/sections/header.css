@@ -1,0 +1,131 @@
+.section-header {
+  font-family: var(--font-family);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.header-left {
+  width: 45%;
+}
+
+.header-h1 {
+  font-weight: 800;
+  font-size: 6.2rem;
+  line-height: 7.5rem;
+  letter-spacing: -0.04em;
+}
+
+.header-p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: var(--color-text);
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.header-input-div {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.header-input {
+  width: 70%;
+  min-height: 5rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  background: var(--color-footer);
+  border: 2px solid var(--color-footer);
+  padding: 0 1rem;
+  outline: none;
+  color: #fff;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.header-btn {
+  width: 30%;
+  min-height: 5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  background: #ff4820;
+  border: 2px solid #ff4820;
+  padding: 0 1rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header-people {
+  display: flex;
+}
+
+.header-people img {
+  width: 181.79px;
+  height: 38px;
+}
+
+.header-people span {
+  margin: 0 0 0 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 3.8rem;
+  color: #fff;
+  text-align: center;
+}
+
+.header-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-img {
+  width: 90%;
+  height: 90%;
+}
+
+@media (max-width: 68.75em) {
+  .section-header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header-left {
+    width: 100%;
+  }
+
+  .header-right {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 50em) {
+  .header-people {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .header-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 31.5em) {
+  .header-h1 {
+    font-size: 4.5rem;
+  }
+}

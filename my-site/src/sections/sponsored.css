@@ -1,0 +1,28 @@
+.section-sponsored {
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 68%;
+}
+
+@media (max-width: 68.75em) {
+  .section-sponsored {
+    width: 100%;
+  }
+}
+
+@media (max-width: 50em) {
+  .section-sponsored {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    justify-items: center;
+  }
+
+  .section-sponsored :last-child {
+    grid-column: -3/-1;
+  }
+}

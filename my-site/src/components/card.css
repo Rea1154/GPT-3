@@ -1,0 +1,104 @@
+.card,
+.cardBig {
+  width: 30rem;
+  height: 40rem;
+  overflow: hidden;
+  background: var(--color-footer);
+  font-family: var(--font-family);
+  color: white;
+}
+
+.cardBig {
+  width: 48.2rem;
+  height: 83rem;
+  margin-right: 3.2rem;
+}
+
+.card-img-div {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.cardBig-img-div {
+  width: 100%;
+  height: 40rem;
+}
+
+.card-img-div img,
+.cardBig-img-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-text-div,
+.cardBig-text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.cardBig-text-div {
+  padding-bottom: 22rem;
+}
+
+.card-text-div span,
+.cardBig-text-div span {
+  font-size: 11.65px;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+.card-text-div h4,
+.cardBig-text-div h4 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 3rem;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+.span-article {
+  padding-left: 1.5rem;
+  font-size: 11.65px;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+@media (max-width: 81.25em) {
+  .cardBig {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .cardBig {
+    width: 30rem;
+    height: 40rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+  .cardBig-img-div {
+    height: 12.5rem;
+  }
+
+  .card2 {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .card {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 31.5em) {
+  .card,
+  .cardBig {
+    width: 27rem;
+  }
+}
